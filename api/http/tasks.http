@@ -1,0 +1,19 @@
+### moostrar todas las tareas
+GET http://localhost:8080/tasks
+
+### Get una tarea 
+GET http://localhost:8080/tasks/2
+
+### Crear tareas
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+    "title": "Comer",
+    "descriptioon": "Mucho",
+    "user_id": 2
+}
+
+
+### Borrar tareas 
+DELETE http://localhost:8080/tasks/2

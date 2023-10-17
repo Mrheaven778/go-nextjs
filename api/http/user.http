@@ -1,0 +1,19 @@
+### GET ver usuarios
+GET http://localhost:8080/users
+### Ver un usuario
+GET http://localhost:8080/users/1
+### Crear usuario
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "firstname": "Maria",
+    "lastname": "Mariadb",
+    "email": "admin@admin.com"
+}
+
+###  Eliminar usuario
+DELETE http://localhost:8080/users/2
+
+
+
